@@ -1,0 +1,141 @@
+*{
+
+  padding: :0px;
+  margin: 0px;
+  font-family:serif;
+
+
+}
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+
+text-align: center;
+font-size: 1.75em;
+
+}
+
+.row{
+
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.Menu-title{
+  float: right;
+  Padding:10px;
+  border-left:4px solid ;
+  border-bottom :2px solid ;
+  z-index: 100;
+  width: 30%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  font-size: 1.25em;
+
+
+}
+
+#poulet{
+  background-color: pink;
+
+}
+
+#boeuf{
+  background-color: red;
+
+}
+
+#couscous{
+  background-color: yellow;
+
+}
+
+.text-box{
+  border:4px solid ;
+  margin:10px;
+  z-index: 10;
+  height: 200px;
+  background-color: grey;
+  overflow:hidden;
+
+}
+
+
+p{
+margin: 20px;
+padding-top: 40px;
+
+
+  clear: left;
+
+
+
+}
+
+@media (min-width:992px) {
+  .col-lg-12, .col-lg-6, .col-lg-4,.col-lg-3 {
+    float:left;
+    box-sizing: border-box;
+
+
+
+
+    }
+
+
+  .col-lg-12{
+  width: 8.33%;
+  }
+
+  .col-lg-6{
+  width: 50%;
+  }
+
+  .col-lg-4{
+  width: 33.33%;
+  }
+
+
+  .col-lg-3{
+  width: 25%;
+  }
+
+}
+
+@media (min-width:768px)and (max-width:991px) {
+  .col-md-1, .col-md-6, .col-md-4,.col-md-3 {
+    float:left;
+    box-sizing: border-box;
+
+
+
+
+    }
+
+
+  .col-md-1{
+  width: 100%;
+  }
+
+  .col-md-6{
+  width: 50%;
+  }
+
+  .col-md-4{
+  width: 33.33%;
+  }
+
+
+  .col-md-3{
+  width: 25%;
+  }
+
+}
+
+@media (max-width:767px){
+
+}
